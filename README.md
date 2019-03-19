@@ -7,7 +7,7 @@ version: 2
 jobs:
     deploy:
         docker:
-           - image: xmorse/deploy-dockerhub
+           - image: xmorse/deploy-docker
         environment:
              IMAGE_NAME: myimage
              REGISTRY: myregistry.com
