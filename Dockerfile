@@ -1,4 +1,4 @@
-FROM docker 
+FROM docker:stable-git
 
 COPY ./deploy /deploy
 
